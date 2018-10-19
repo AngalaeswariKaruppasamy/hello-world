@@ -1,0 +1,41 @@
+﻿Build started 09-09-2016 10:32:58.
+     1>Project "C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\DLLforVendingMachine\DLLforVendingMachine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLFORVENDINGMACHINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\DLLforVendingMachine.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLFORVENDINGMACHINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\DLLforVendingMachine.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CashManager.cpp Controller.cpp Dispenser.cpp DispenserFactory.cpp DLLforVendingMachine.cpp EmployeeIDManager.cpp LiquidDispenser.cpp PowderDispenser.cpp Recipe.cpp SnackDispenser.cpp VendingMachine.cpp
+         VendingMachine.cpp
+         SnackDispenser.cpp
+         Recipe.cpp
+         PowderDispenser.cpp
+         LiquidDispenser.cpp
+         EmployeeIDManager.cpp
+         DLLforVendingMachine.cpp
+         DispenserFactory.cpp
+         Dispenser.cpp
+         Controller.cpp
+         CashManager.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLLFORVENDINGMACHINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\Debug\DLLforVendingMachine.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\Debug\DLLforVendingMachine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\Debug\DLLforVendingMachine.lib" /MACHINE:X86 /DLL Debug\CashManager.obj
+         Debug\Controller.obj
+         Debug\Dispenser.obj
+         Debug\DispenserFactory.obj
+         Debug\DLLforVendingMachine.obj
+         Debug\dllmain.obj
+         Debug\EmployeeIDManager.obj
+         Debug\LiquidDispenser.obj
+         Debug\PowderDispenser.obj
+         Debug\Recipe.obj
+         Debug\SnackDispenser.obj
+         Debug\stdafx.obj
+         Debug\VendingMachine.obj
+            Creating library C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\Debug\DLLforVendingMachine.lib and object C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\Debug\DLLforVendingMachine.exp
+         DLLforVendingMachine.vcxproj -> C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\Debug\DLLforVendingMachine.dll
+     1>Done Building Project "C:\Users\AngaleswariK\documents\visual studio 2015\Projects\DLLforVendingMachine\DLLforVendingMachine\DLLforVendingMachine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.84
